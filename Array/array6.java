@@ -6,7 +6,6 @@ public class array6 {
              if(arr[i]>mx){
                 mx=arr[i];
              }
-
         }
         return mx;
         
@@ -28,9 +27,6 @@ public class array6 {
         System.out.print("Second largest element:" +SecondLargestElement(arr));
         //int mx=Integer.MIN_VALUE;
         //SecondLargestElement(arr);
-        
-        
-        
     }
     
 }
