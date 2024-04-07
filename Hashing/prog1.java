@@ -13,9 +13,9 @@ public class prog1 {
         map.put(2,90);
         //get method is used yo find the value
         int val = map.getOrDefault(12, 0);
-        for(Integer key:map.keySet()){
+        
         System.out.println(map);
-        }
+        
     }
 
     
