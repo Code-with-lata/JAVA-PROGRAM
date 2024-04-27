@@ -1,9 +1,10 @@
+//write a program to print sum of unique element array
 import java.util.HashMap;
 import java.util.Map;
 
-public class pror3 {
+public class prog3 {
     
-    public int sumOfUnique(int[] nums) {
+    public static void sumOfUnique(int[] nums) {
        int sum =0;
        Map<Integer,Integer>map = new HashMap<>();
         for(int i=0;i<nums.length;i++){
@@ -14,10 +15,12 @@ public class pror3 {
                 sum += entry.getKey();
             }
         }
-        return sum;
-
+        System.out.println("Sum of unique element is:" +sum); 
     }
-    
+    public static void main(String args[]){
+        int nums[] = {1, 2, 2, 3, 4, 4, 5 };
+        sumOfUnique(nums);
+    }
 }
 
 
